@@ -4,7 +4,7 @@
     padding: 0;
 }
 .top-layer{
-    margin-top: 100px;
+    margin-top: 110px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,11 +14,12 @@
 }
 
 .p-container{
-    width: 52%;
+    margin-left: 25px;
+    width: 400px;
 }
 
 .top-child{
-    width: 50%;
+    width: 62%;
 }
 
 .headerthick{
@@ -46,17 +47,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
     
 }
 
 .bottom-child{
-    width: 50%;
+    width: 60%;
     background-color: #FFFFFF;
     padding: 20px;
-    padding-top: 70px;
+    padding-top: 110px;
     margin: 70px 0px;
     border-bottom: 8px solid #999999 ;
     position: relative;
+   
+}
+
+.bottom-child p {
+    font-weight: 500;
 }
 
 .yellow-card{
@@ -71,4 +78,33 @@
     font-weight: 800;
     line-height: 28.8px;
     font-size: 24px;
+}
+
+@media only screen and (max-width: 768px){
+    
+        .top-child{
+            width: 100%;
+        }
+        .bottom-child{
+            width: 100%;
+        }
+    
+    
+}
+
+@media only screen and (max-width: 392px){
+    .p-container{
+        margin-left: 25px;
+        width: 350px;
+    }
+    .yellow-card{
+        /* width: 350px; */
+        /* padding: 0px 0px 15px 30px; */
+    }
+    .yellow-card p{
+        width: 300px;
+    }
+    
+
+
 }
