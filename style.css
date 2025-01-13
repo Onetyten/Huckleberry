@@ -108,3 +108,21 @@
 
 
 }
+
+
+@media only screen and (max-width: 352px){
+    .p-container{
+        margin-left: 25px;
+        width: 90%;
+    }
+    .yellow-card{
+        /* width: 350px; */
+        /* padding: 0px 0px 15px 30px; */
+    }
+    .yellow-card p{
+        width: 90%;
+    }
+    
+
+
+}
